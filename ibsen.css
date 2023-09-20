@@ -56,24 +56,23 @@
     margin-top: 20px;
 }
 
+.play-table th, .play-table td {
+    padding: 10px;
+    text-align: center;
+}
 
 .play-table th {
-    background-color: #f2f2f2;
-    text-align: left;
-    padding: 8px;
-    border: 1px solid #ddd;
+    background-color: #8ac2c7;
+    border: 1px solid #121111;
 }
 
 .play-table td {
-    padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #222020;
 }
 
-
-.play-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+.play-table tbody tr:nth-child(odd) {
+    background-color: #db9797;
 }
-
 
 
 .name:hover {
